@@ -1,0 +1,589 @@
+.home_list_miss {
+    margin: 100px 0 0;
+    position: relative;
+}
+.home_list_miss.list_finish .items .top1 .item:nth-child(5n) {
+    margin-right: 0;
+}
+/* .home_list_miss.list_finish .items .top1 { */
+    /* margin: 0 auto 130px; */
+    /* float: left; */
+    /* width: 100%; */
+    /* padding-bottom: 30px; */
+    /* position: relative; */
+/* } */
+.home_list_miss.list_finish .items .top1 .item {
+    width: calc((100% - 205px) / 5);
+    float: left;
+    margin: 0 40px 80px 0;
+    clear: none;
+    display: block;
+    min-width: auto;
+    max-width: 100%;
+    border: 0;
+    z-index: -10;
+}
+.home_list_miss .items .item {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 0 50px 0 50px;
+    position: relative;
+    transition: all 0.3s;
+}
+/* ảnh thí sinh */
+.td-image-wrap {
+    display: block;
+    position: relative;
+    padding-bottom: 65%;
+    text-align: left;
+    height: 100%;
+}
+.entry-thumb {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center 50%;
+}
+
+/* số báo danh */
+.home_list_miss.list_finish .items .item .places {
+    top: -25px;
+    position: absolute;
+    color: #000;
+    right: -25px;
+    z-index: 1;
+    line-height: 53px;
+    width: 50px;
+}
+.home_list_miss .items .item .sbd {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    display: block;
+}
+/* tên thí sinh */
+.home_list_miss .items .item .name {
+    margin: 15px 0 0;
+	font-weight: 500;
+}
+.line-clamp-2 {
+    -webkit-line-clamp: 2;
+    height: 40px;
+}
+.line-clamp-2, .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.home_list_miss .items .item .name a {
+    font-size: 21px;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+.name a {
+    font-size: 15px !important;
+}
+/* nút bình chọn */
+.home_list_miss .items .item .action {
+    margin-top: 15px;
+}
+.home_list_miss .items .item .action button {
+    color: white!important;
+}
+
+/* top 4 */
+	.home_list_miss.list_finish .items .top1 .item.no4 {
+		margin-top: 200px;
+	}
+	.items .top1 .no4 .image {
+		height: 263px;
+		/* overflow: hidden; */
+	}
+	
+/* top 2 */
+	.home_list_miss.list_finish .items .top1 .item.no2, .home_list_miss.list_finish .items .top1 .item.no3 {
+		margin-top: 100px;
+	}
+	/* vương miện top 2 */
+	.home_list_miss.list_finish .items .top1 .item.no2 .king {
+		position: absolute;
+		top: -30px;
+		right: -30px;
+	}
+	.home_list_miss.list_finish .items .top1 .item .king {
+		/* position: absolute; */
+		/* top: -55px; */
+		/* right: -55px; */
+		width: auto;
+	}
+	/* ảnh */
+	.items .top1 .no2 .image {
+    height: 273px;
+    /* overflow: hidden; */
+	}
+
+/* top 1 */
+	.home_list_miss.list_finish .items .top1 .king {
+		width: 20%;
+	}
+	.home_list_miss.list_finish .items .top1 .item .king {
+		position: absolute;
+		top: -55px;
+		right: -55px;
+		width: auto;
+	}
+	.items .top1 .king .image {
+		height: 340px;
+		/* overflow: hidden; */
+	}
+/* top 3 */
+	.home_list_miss.list_finish .items .top1 .item.no3 .king {
+		position: absolute;
+		top: -30px;
+		right: -30px;
+	}
+	.items .top1 .no3 .image {
+		height: 273px;
+		/* overflow: hidden; */
+	}
+/* top 5 */
+	.items .top1 .no4 .image {
+		height: 263px;
+		/* overflow: hidden; */
+	}
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 1420px){
+	.home_list_miss.list_finish .items .item .places {
+		width: 60px;
+		line-height: 60px;
+		right: -30px;
+		top: -30px;
+	}
+	.home_list_miss.list_finish .items .item .places:before {
+		content: "";
+		height: 55px;
+		width: 55px;
+	}
+	.home_list_miss.list_finish .items .top1 .item .sbd:before {
+		content: "";
+		background-size: 150px;
+		top: 5px;
+		right: 6px;
+		width: 150px;
+		height: 150px;
+	}
+	.items .top1 .no4 .image {
+		height: 210px;
+		/* overflow: hidden; */
+	}
+	.home_list_miss.list_finish .items .top1 .item.no2 .sbd:before {
+		content: "";
+		background-size: 85px;
+		width: 85px;
+		height: 85px;
+		top: 3px;
+		right: 3px;
+	}
+	.items .top1 .no2 .image {
+		height: 210px;
+		/* overflow: hidden; */
+	}
+	.home_list_miss.list_finish .items .top1 .item .sbd:before {
+		content: "";
+		background-size: 150px;
+		top: 5px;
+		right: 6px;
+		width: 150px;
+		height: 150px;
+	}
+	.items .top1 .king .image {
+		height: 275px;
+		/* overflow: hidden; */
+	}
+	.home_list_miss.list_finish .items .top1 .item.no3 .sbd:before {
+		content: "";
+		background-size: 85px;
+		width: 85px;
+		height: 85px;
+		top: 3px;
+		right: 3px;
+	}
+	.items .top1 .no3 .image {
+		height: 210px;
+		/* overflow: hidden; */
+	}
+	.home_list_miss.list_finish .items .item .places:before {
+		content: "";
+		height: 55px;
+		width: 55px;
+	}
+	.home_list_miss.list_finish .items .top1 .item .sbd:before {
+		content: "";
+		background-size: 150px;
+		top: 5px;
+		right: 6px;
+		width: 150px;
+		height: 150px;
+	}
+	.items .top1 .no4 .image {
+		height: 210px;
+		/* overflow: hidden; */
+	}
+}
+
+@media only screen and (max-width: 1280px){
+	.home_list_miss .items .item.king {
+		padding: 40px 40px;
+	}
+	.home_list_miss {
+		margin: 50px 0 0;
+	}
+	.home_list_miss.list_finish .items .top1 .item {
+		width: calc((100% - 250px) / 2) !important;
+	}
+	.items .top1 .no4 .image {
+		height: 392px;
+	}
+	.home_list_miss.list_finish .items .top1 .item.king {
+		width: 100% !important;
+		margin: 0 auto 70px !important;
+		max-width: 49%;
+	}
+	.home_list_miss.list_finish .items .top1 .item.no4:last-child {
+		margin-right: 0 !important;
+	}
+	/* .items .top1 .no4 .image { */
+		/* height: 392px; */
+	/* } */
+	
+	.home_list_miss.list_finish .items .top1 {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.home_list_miss.list_finish .items .top1 .item .king:before {
+		content: "";
+		background-size: 90px;
+		width: 90px;
+		height: 90px;
+	}
+	.home_list_miss.list_finish .items .top1 .item .king {
+		top: -41px;
+		right: -41px;
+	}
+	.items .top1 .king .image {
+		height: 650px;
+	}
+	.items .top1 .no4 .image {
+		height: 540px;
+	}
+	.items .top1 .no2 .image {
+		height: 540px;
+	}
+	.items .top1 .no3 .image {
+		height: 540px;
+	}
+	.items .top1 .no3 .image {
+		height: 540px;
+	}
+	.home_list_miss.list_finish .items .top1 .item {
+        margin: 0 100px 70px 50px !important;
+    }
+}
+/*@media only screen and (max-width: 1280px){
+	.home_list_miss.list_finish .items .top1 {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.home_list_miss.list_finish .items .top1 .item {
+		margin: 0 50px 70px 0 !important;
+		width: calc((100% - 100px) / 3) !important;
+		float: left;
+	}
+	.items .top1 .no4 .image {
+		height: 421px;
+	}
+	.home_list_miss.list_finish .items .top1 .item.no2 {
+		order: -4;
+	}
+	.home_list_miss.list_finish .items .top1 .item .king:before {
+		content: "";
+		background-size: 90px;
+		width: 90px;
+		height: 90px;
+	}
+	.items .top1 .no2 .image {
+		height: 421px;
+	}
+	.home_list_miss.list_finish .items .top1 .king {
+		order: -5;
+	}
+	.home_list_miss.list_finish .items .top1 .item .king {
+		top: -41px;
+		right: -41px;
+	}
+	.items .top1 .king .image {
+		height: 420px;
+	}
+	.home_list_miss.list_finish .items .top1 .item.no3 {
+		order: -3;
+		margin-right: 0 !important;
+	}
+	.home_list_miss.list_finish .items .top1 .item .king:before {
+		content: "";
+		background-size: 90px;
+		width: 90px;
+		height: 90px;
+	}
+	.items .top1 .no3 .image {
+		height: 421px;
+	}
+	.items .top1 .no4 .image {
+		height: 421px;
+	}
+}*/
+
+@media only screen and (max-width: 1024px){
+	.home_list_miss.list_finish .items .top1 {
+		padding: 0 10px;
+	}
+	.home_list_miss.list_finish .items .top1 .item {
+		max-width: 50%;
+		margin: 0 30px 80px;
+	}
+	.items .top1 .king .image {
+		height: 500px;
+	}
+	.items .top1 .no4 .image {
+		height: 390px;
+	}
+	.items .top1 .no2 .image {
+		height: 390px;
+	}
+	.items .top1 .no3 .image {
+		height: 390px;
+	}
+	.items .top1 .no3 .image {
+		height: 390px;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.home_list_miss.list_finish .items .top1 .item {
+		width: calc((100% - 100px) / 2) !important;
+	}
+	.home_list_miss.list_finish .items .top1 .item {
+        margin: 0px 30px 50px !important;
+    }
+}
+@media only screen and (max-width: 812px){
+	
+	.items .top1 .no4 .image {
+		height: 360px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no2 .image {
+		height: 360px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .king .image {
+		height: 360px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no3 .image {
+		height: 360px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no4 .image {
+		height: 360px;
+		/* overflow: hidden; */
+	}
+}
+@media only screen and (max-width: 768px){
+	.items .top1 .no4 .image {
+		height: 360px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no2 .image {
+		height: 360px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .king .image {
+		height: 360px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no3 .image {
+		height: 360px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no4 .image {
+		height: 360px;
+		/* overflow: hidden; */
+	}
+}
+/*@media only screen and (max-width: 767px){
+	.home_list_miss {
+		margin: 50px 0 0;
+	}
+	.home_list_miss.list_finish .items .top1 .item {
+		width: calc((100% - 50px) / 2) !important;
+	}
+	.items .top1 .no4 .image {
+		height: 392px;
+	}
+	.home_list_miss.list_finish .items .top1 > .king {
+		width: 100% !important;
+		margin: 0 auto 70px !important;
+		max-width: 57%;
+	}
+	.items .top1 .king .image {
+		height: 500px;
+	}
+	.items .top1 .no3 .image {
+		height: 392px;
+	}
+	.home_list_miss.list_finish .items .top1 .item.no4:last-child {
+		margin-right: 0 !important;
+	}
+	.items .top1 .no4 .image {
+		height: 392px;
+	}
+}*/
+
+@media only screen and (max-width: 640px){
+	.home_list_miss.list_finish .items .top1 .item.king {
+		max-width: 55%;
+	}
+	.home_list_miss.list_finish .items .top1 {
+		max-width: 100%;
+	}
+	.items .top1 .no4 .image {
+		height: 297px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no2 .image {
+		height: 297px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .king .image {
+		height: 297px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no3 .image {
+		height: 297px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no4 .image {
+		height: 297px;
+		/* overflow: hidden; */
+	}
+}
+
+@media only screen and (max-width: 479px){
+	.home_list_miss.list_finish .items .top1 .item.king {
+		max-width: 100%;
+	}
+	.home_list_miss.list_finish .items {
+		padding: 0 40px;
+	}
+	.home_list_miss.list_finish .items .top1 {
+		padding: 0;
+		flex-direction: column;
+	}
+	.home_list_miss.list_finish .items .top1 .item {
+		width: 100% !important;
+		max-width: 100%;
+		margin: 0 0 70px 0 !important;
+	}
+	.home_list_miss.list_finish .items .top1 .item {
+		margin: 0 0 70px 0;
+	}
+	.items .top1 .no4 .image {
+		height: 370px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no2 .image {
+		height: 370px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .king .image {
+		height: 370px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no3 .image {
+		height: 370px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no4 .image {
+		height: 370px;
+		/* overflow: hidden; */
+	}
+}
+@media only screen and (max-width: 420px){
+	.home_list_miss.list_finish .items .top1 .item.king {
+		max-width: 100%;
+	}
+	.items .top1 .no4 .image {
+		height: 375px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no2 .image {
+		height: 375px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .king .image {
+		height: 375px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no3 .image {
+		height: 375px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no4 .image {
+		height: 375px;
+		/* overflow: hidden; */
+	}
+}
+@media only screen and (max-width: 390px){
+	.home_list_miss.list_finish .items .top1 .item.king {
+		max-width: 100%;
+	}
+	.items .top1 .no4 .image {
+		height: 320px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no2 .image {
+		height: 320px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .king .image {
+		height: 320px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no3 .image {
+		height: 320px;
+		/* overflow: hidden; */
+	}
+	.items .top1 .no4 .image {
+		height: 320px;
+		/* overflow: hidden; */
+	}
+}
+@media only screen and (max-width: 550px) and (min-width:500px) {
+	.home_list_miss.list_finish .items .top1 .item.king {
+		max-width: 60%;
+	}
+	.home_list_miss.list_finish .items .top1 .item {
+		width: calc((100% - 40px) / 2) !important;
+	}
+	.home_list_miss.list_finish .items .top1 .item {
+        margin: 0px 13px 50px !important;
+    }
+}

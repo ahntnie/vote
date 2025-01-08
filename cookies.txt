@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+hoahaudulichbansacvietnam.voting.vn	TRUE	/	FALSE	1999999999	PHPSESSID	rh8jh63cl4m2aqj7k1tbmg6dn6
+hoahaudulichbansacvietnam.voting.vn	TRUE	/	FALSE	1999999999	ROUTEID	.node2
+media.voting.vn	TRUE	/	FALSE	1999999999	ROUTEID	.
+

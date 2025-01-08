@@ -1,0 +1,166 @@
+.home_list_miss.list_finish .items .top4 {
+    clear: both;
+}
+.home_list_miss.list_finish .items .top4 .item {
+    /* background-color: rgba(0,0,0,0.2); */
+    width: calc((100% - 200px) / 5);
+    float: left;
+    margin: 0 50px 80px 0;
+    clear: none;
+    display: block;
+    min-width: auto;
+    max-width: 100%;
+    /* border: 0; */
+    z-index: -10;
+}
+.home_list_miss .items .item {
+    /* border: 1px solid #000; */
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 0 50px 0 50px;
+    position: relative;
+    transition: all 0.3s;
+}
+/* stt */
+.home_list_miss.list_finish .items .item .places {
+    top: -25px;
+    position: absolute;
+    color: #000;
+    right: -25px;
+    z-index: 1;
+    line-height: 53px;
+    width: 50px;
+}
+.home_list_miss.list_finish .items .item .places span {
+    color: white;
+    z-index: 1;
+    position: relative;
+    font-size: 18px;
+    font-weight: 900;
+}
+/* kết thúc */
+
+/* ảnh */
+.items .top4 .image {
+    height: 275px;
+    /* overflow: hidden; */
+}
+.td-image-wrap {
+    display: block;
+    position: relative;
+    padding-bottom: 65%;
+    text-align: left;
+    height: 100%;
+}
+.entry-thumb {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center 50%;
+}
+/* kết thúc */
+
+/* tên thí sinh, số vote */
+.home_list_miss .items .item .name {
+    margin: 15px 0 0;
+}
+.line-clamp-2 {
+    -webkit-line-clamp: 2;
+    height: 40px;
+}
+.line-clamp-2, .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.home_list_miss .items .item .name a {
+    /* font-size: 21px; */
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* kết thúc */
+
+/* nút bình chọn */
+.home_list_miss .items .item .action {
+    margin-top: 15px;
+}
+.home_list_miss .items .item .action button {
+    color: white !important;
+}
+/* kết thúc */
+
+
+@media only screen and (min-width: 1450px){
+	.home_list_miss.list_finish .items .top4 .item:nth-child(5n) {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 1420px){
+	.items .top4 .image {
+		height: 393px;
+		/* overflow: hidden; */
+	}
+	.home_list_miss.list_finish .items .top4 .item {
+		width: calc((100% - 140px) / 3);
+		margin: 0 70px 120px 0;
+	}
+	.home_list_miss.list_finish .items .top4 .item:nth-child(3n) {
+		margin-right: 0;
+	}
+}	
+@media only screen and (max-width: 1280px){
+	.items .top4 .image {
+		height: 421px;
+		/* overflow: hidden; */
+	}
+	.home_list_miss.list_finish .items .top4 .item {
+		width: calc((100% - 100px) / 3);
+		margin: 0 50px 120px 0;
+	}
+}
+@media only screen and (max-width: 1024px){
+	.items .top4 .image {
+		height: 335px;
+		/* overflow: hidden; */
+	}
+}
+@media only screen and (max-width: 812px){
+	.items .top4 .image {
+		height: 215px;
+		/* overflow: hidden; */
+	}
+}
+@media only screen and (max-width: 768px){
+	.items .top4 .image {
+		height: 215px;
+		/* overflow: hidden; */
+	}
+}
+@media only screen and (max-width: 767px){
+	.home_list_miss.list_finish .items .top4 .item {
+		width: calc((100% - 60px) / 2);
+		margin: 0 60px 120px 0;
+	}
+	.home_list_miss.list_finish .items .top4 .item:nth-child(2n+1) {
+		margin-right: 60px;
+	}
+	.home_list_miss.list_finish .items .top4 .item:nth-child(2n) {
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 479px){
+	.home_list_miss.list_finish .items .top4 .item {
+		float: none;
+		width: 100% !important;
+		margin: 0 60px 70px 0;
+	}
+}
+@media only screen and (max-width: 420px){
+	.items .top4 .image {
+		height: 375px;
+		/* overflow: hidden; */
+	}
+}
